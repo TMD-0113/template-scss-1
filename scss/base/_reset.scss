@@ -31,6 +31,8 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  font-family: $Martian_Mono;
+  background-color: $neutral-0;
 }
 
 main {
@@ -43,7 +45,7 @@ h1 {
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1230px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 30px;

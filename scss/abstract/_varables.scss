@@ -1,0 +1,49 @@
+// Neutral ranglar
+$neutral-900: #062630; // Neutral 900
+$neutral-700: #385159; // Neutral 700
+$neutral-200: #e6e1df; // Neutral 200
+$neutral-100: #faf5f3; // Neutral 100
+$neutral-0: #ffffff; // Neutral 0
+
+// Light Salmon ranglar
+$light-salmon-500: #fea36f; // Light Salmon 500
+$light-salmon-100: #fff5ef; // Light Salmon 100
+$light-salmon-50: #fff5ef; // Light Salmon 50 (ehtimol xato bo'lishi mumkin, chunki ikkala qiymat bir xil ko'rinadi, tekshirish kerak)
+
+// Gradient
+$gradient-text: linear-gradient(107.24deg, #fea36f -11.37%, #062630 61.84%);
+// Text Gradient
+$gradient: linear-gradient(90deg, #ffe2d1 0%, #fff5ef 100%);
+
+$footer_btn_gardent: linear-gradient(90deg, $neutral-700 0%, $neutral-900 100%);
+
+$Martian_Mono: "Martian Mono", monospace;
+$Inter: "Inter", sans-serif;
+
+$rem-12: 12rem;
+$rem-8: 8rem;
+$px-12: 12px;
+
+// Border Radius
+$radius-0: 0;
+$radius-4: 4px;
+$radius-6: 6px;
+$radius-8: 8px;
+$radius-10: 10px;
+$radius-12: 12px;
+$radius-16: 16px;
+$radius-20: 20px;
+$radius-24: 24px;
+$radius-full: 9999px;
+
+@mixin btn {
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+  border-radius: 8px;
+  border: 2px solid $neutral-900;
+  cursor: pointer;
+}
